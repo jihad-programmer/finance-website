@@ -2,7 +2,7 @@ import debitCard from "../assets/debit-card.svg";
 
 const DebitCard = () => {
 	return (
-		<section className='flex gap-8 items-center px-24'>
+		<section className='flex gap-8 items-center'>
 			<div className='space-y-6 w-1/2'>
 				<h2 className='font-bold leading-tight text-3xl'>
 					Wern Debit Card

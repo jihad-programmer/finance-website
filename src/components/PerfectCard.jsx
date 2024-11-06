@@ -2,7 +2,7 @@ import perfectCard from "../assets/perfect-card.svg";
 
 const PerfectCard = () => {
 	return (
-		<section className='flex gap-8 items-center px-24'>
+		<section className='flex gap-8 items-center'>
 			<img className='w-1/2' src={perfectCard} alt='hero card' />
 
 			<div className='space-y-6 w-1/2'>

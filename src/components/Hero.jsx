@@ -2,7 +2,7 @@ import heroCard from "../assets/hero-card.svg";
 
 const Hero = () => {
 	return (
-		<section className='flex gap-8 px-24'>
+		<section className='flex gap-8'>
 			<div className='space-y-6 w-1/2'>
 				<h1 className='font-bold leading-tight text-5xl'>
 					Spend your Cardano anywhere, anytime.
