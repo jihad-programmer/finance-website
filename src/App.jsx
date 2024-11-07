@@ -6,20 +6,20 @@ import PerfectCard from "./components/PerfectCard";
 import Vision from "./components/Vision";
 
 const App = () => {
-	return (
-		<>
-			<Header />
+  return (
+    <main className="max-w-screen-[1440px] mx-auto">
+      <Header />
 
-			<main className='my-16 px-24 space-y-20'>
-				<Hero />
-				<Vision />
-				<DebitCard />
-				<PerfectCard />
-			</main>
+      <div className="my-16 px-24 space-y-20">
+        <Hero />
+        <Vision />
+        <DebitCard />
+        <PerfectCard />
+      </div>
 
-			<Footer />
-		</>
-	);
+      <Footer />
+    </main>
+  );
 };
 
 export default App;
