@@ -3,6 +3,7 @@ import Feedbacks from "./components/Feedbacks";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Offers from "./components/Offers";
 import PerfectCard from "./components/PerfectCard";
 import Vision from "./components/Vision";
 
@@ -14,6 +15,7 @@ const App = () => {
 				<div className='space-y-[128px]'>
 					<Hero />
 					<Vision />
+					<Offers />
 					<DebitCard />
 					<PerfectCard />
 					<Feedbacks />
