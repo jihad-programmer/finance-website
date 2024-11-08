@@ -1,21 +1,43 @@
+import {
+  Button,
+  Link,
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+} from "@nextui-org/react";
 import Logo from "./Logo";
 
 const Header = () => {
-	return (
-		<header className='flex items-center justify-between px-24 py-6'>
-			<div className='flex gap-4 items-center'>
-				<div className='w-16'>
-					<Logo />
-				</div>
+  return (
+    <Navbar
+      shouldHideOnScroll
+      isBlurred={false}
+      className="bg-transparent w-full"
+      maxWidth="xl"
+    >
+      <NavbarBrand>
+        <div className="w-16">
+          <Logo />
+        </div>
 
-				<h3 className='font-bold text-xl'>Wern Finance</h3>
-			</div>
-
-			<button className='border-2 border-primary font-bold px-8 py-3 rounded-3xl text-sm text-primary'>
-				Contact
-			</button>
-		</header>
-	);
+        <h3 className="font-bold text-lg sm:text-xl">Wern Finance</h3>
+      </NavbarBrand>
+      <NavbarContent justify="end">
+        <NavbarItem>
+          <Button
+            as={Link}
+            color="primary"
+            href="#"
+            variant="bordered"
+            radius="full"
+          >
+            Sign Up
+          </Button>
+        </NavbarItem>
+      </NavbarContent>
+    </Navbar>
+  );
 };
 
 export default Header;
