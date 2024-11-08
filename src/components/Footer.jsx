@@ -19,23 +19,25 @@ const linkList = (title, list) => (
 
 const Footer = () => {
   return (
-    <footer className="bg-[#292834]/25 flex gap-8 py-12">
-      <div className="space-y-2 w-1/3">
-        <h4 className="font-bold text-lg">Wern Finance</h4>
+    <footer className="bg-[#292834]/25 mt-[128px]">
+      <div className="flex gap-8 py-12 w-full max-w-[1440px] px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto">
+        <div className="space-y-2 w-1/3">
+          <h4 className="font-bold text-lg">Wern Finance</h4>
 
-        <p className="text-secondary text-sm">
-          Discover the power of our secure and rewarding credit cards
-        </p>
-      </div>
+          <p className="text-secondary text-sm">
+            Discover the power of our secure and rewarding credit cards
+          </p>
+        </div>
 
-      <div className="flex w-1/3">
-        {linkList("About Us", listA)}
-        {linkList("Products", listB)}
-      </div>
+        <div className="flex w-1/3">
+          {linkList("About Us", listA)}
+          {linkList("Products", listB)}
+        </div>
 
-      <div className="flex w-1/3">
-        {linkList("Useful Links", listC)}
-        {linkList("Social", listD)}
+        <div className="flex w-1/3">
+          {linkList("Useful Links", listC)}
+          {linkList("Social", listD)}
+        </div>
       </div>
     </footer>
   );
