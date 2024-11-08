@@ -7,11 +7,10 @@ import Vision from "./components/Vision";
 
 const App = () => {
   return (
-    <main className="bg-[#1A1E1C] bg-[url(/bg.svg)] bg-no-repeat bg-cover pb-[569px] overflow-x-hidden">
+    <main className="pb-[569px] overflow-x-hidden">
+      <Header />
       <div className="w-full max-w-[1440px] px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto ">
-        <Header />
-
-        <div className="space-y-20">
+        <div className="space-y-[128px]">
           <Hero />
           <Vision />
           <DebitCard />

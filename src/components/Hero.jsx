@@ -1,3 +1,5 @@
+import { Button } from "@nextui-org/button";
+
 const Hero = () => {
   return (
     <section className="flex flex-col-reverse sm:flex-row gap-10 lg:gap-2.5 xl:gap-8 justify-between items-center mt-10 lg:mt-20 xl:mt-[128px]">
@@ -11,9 +13,9 @@ const Hero = () => {
           seamlessly convert and spend their crypto for everyday purchases.
         </p>
 
-        <button className="bg-primary font-bold px-8 py-3 rounded-3xl text-sm">
+        <Button variant="solid" color="primary" radius="full">
           Get Started
-        </button>
+        </Button>
       </div>
 
       <img
