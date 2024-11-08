@@ -1,4 +1,5 @@
 import DebitCard from "./components/DebitCard";
+import Feedbacks from "./components/Feedbacks";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -15,6 +16,7 @@ const App = () => {
 				<Vision />
 				<DebitCard />
 				<PerfectCard />
+				<Feedbacks />
 			</main>
 
 			<Footer />
