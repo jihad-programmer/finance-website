@@ -7,17 +7,19 @@ import Vision from "./components/Vision";
 
 const App = () => {
   return (
-    <main className="max-w-screen-[1440px] mx-auto">
-      <Header />
+    <main className="bg-[#1A1E1C] bg-[url(/bg.png)] bg-no-repeat bg-cover pb-[569px]">
+      <div className="w-full max-w-[1440px] px-24 mx-auto">
+        <Header />
 
-      <div className="my-16 px-24 space-y-20">
-        <Hero />
-        <Vision />
-        <DebitCard />
-        <PerfectCard />
+        <div className="my-16  space-y-20">
+          <Hero />
+          <Vision />
+          <DebitCard />
+          <PerfectCard />
+        </div>
+
+        <Footer />
       </div>
-
-      <Footer />
     </main>
   );
 };
