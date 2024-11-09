@@ -5,6 +5,7 @@
 - React.js
 - Vite
 - TailwindCSS
+- Next Ui
 
 ## Documentation
 
