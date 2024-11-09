@@ -10,7 +10,11 @@ export default {
   theme: {
     container: { center: true },
     extend: {
-      colors: { primary: "#772ab3", secondary: "#adb2b1" },
+      colors: {
+        primary: "#772ab3",
+        secondary: "#adb2b1",
+        foreground: "#ffffff",
+      },
       fontFamily: { mplus1: '"M PLUS 1", sans-serif' },
     },
   },
