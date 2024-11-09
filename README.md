@@ -12,14 +12,14 @@ If you want to create this project on your own, do the following steps:
 
 1. Create a reactjs app using vite. Select `React` and `Javascript` after entering this command.
 
-    ```bash
-    npm create vite@latest
-    ```
+   ```bash
+   npm create vite@latest
+   ```
 
 2. You can do these optional tasks if you want. It's just for customizing the project structure according to your likings.
 
-    - Change the end of line sequence of all files from `LF` to `CRLF` in vs code.
-    - Change the indentation of all files from `Spaces: 2` to `Spaces: 4` using tabs.
+   - Change the end of line sequence of all files from `LF` to `CRLF` in vs code.
+   - Change the indentation of all files from `Spaces: 2` to `Spaces: 4` using tabs.
 
 3. Install the necessary packages and follow tailwind's Vite-React guide after that. Here's a [link to the guide](https://tailwindcss.com/docs/guides/vite#react).
 
@@ -31,23 +31,38 @@ If you want to create this project on your own, do the following steps:
 
 4. Don't forget to add these lines in `postcss.config.js`.
 
-    ```js
-    plugins: {
-        "postcss-import": {},
-        "tailwindcss/nesting": {},
-        tailwindcss: {},
-        autoprefixer: {},
-    },
-    ```
+   ```js
+   plugins: {
+       "postcss-import": {},
+       "tailwindcss/nesting": {},
+       tailwindcss: {},
+       autoprefixer: {},
+   },
+   ```
 
 5. Then, add the necessary configurations in `tailwind.config.js`.
 
-    ```js
-    container: { center: true },
-    extend: {
-        colors: { primary: "#772ab3", secondary: "#adb2b1" },
-        fontFamily: { mplus1: '"M PLUS 1", sans-serif' },
-    },
-    ```
+   ```js
+   container: { center: true },
+   extend: {
+       colors: { primary: "#772ab3", secondary: "#adb2b1", foreground: "#ffffff", },
+       fontFamily: { mplus1: '"M PLUS 1", sans-serif' },
+   },
+   ```
 
 6. Import the google font in `index.css` and add the class in `<body>` tag. Here's a [link to the font](https://fonts.google.com/specimen/M+PLUS+1).
+
+7. install and setup `next ui` [follow this docs](https://nextui.org/docs/frameworks/vite)
+8. Setup `App.jsx`
+9. create and fully responsible navbar (`Header.jsx`)
+
+##### Create all Component
+
+10. `Hero.jsx`
+11. `Vision.jsx`
+12. `Offers.jsx`
+13. `DebitCard.jsx`
+14. `PerfectCard.jsx`
+15. `Feedbacks.jsx`
+16. `FAQs.jsx`
+17. `Footer.jsx`
