@@ -53,7 +53,9 @@ If you want to create this project on your own, do the following steps:
 6. Import the google font in `index.css` and add the class in `<body>` tag. Here's a [link to the font](https://fonts.google.com/specimen/M+PLUS+1).
 
 7. install and setup `next ui` [follow this docs](https://nextui.org/docs/frameworks/vite)
+
 8. Setup `App.jsx`
+
 9. create and fully responsible navbar (`Header.jsx`)
 
 ##### Create all Component
